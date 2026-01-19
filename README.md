@@ -40,5 +40,3 @@ TechEase showcases the capabilities of modern home automation, allowing users to
 - Navbar with logo aligned left and menu aligned right.
 - Smooth hover effects on service cards.
 - Organized sections for clear content presentation.
-## 📂 File Structure
-
