@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechEase - Smart Home Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .navbar-brand {
+            font-size: 30px;
+        }
+
+        .navbar {
+            height: 80px;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('https://rectustechnologies.com/assets/images/Smart%20Home%20Solutions.jpg') center/cover no-repeat;
+            height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        #hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+        }
+
+        .btn-custom {
+            background-color: #007BFF;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            transition: 0.3s;
+        }
+
+        .testimonial-card {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 15px;
+            text-align: center;
+        }
+
+        #confirmMsg {
+            font-weight: 500;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="logo.png" alt="TechEase Logo" class="navbar-logo" height="170px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h1>TechEase - Smart Home Solutions</h1>
+            <p>Automate and Secure Your Home with Modern Technology</p>
+            <a href="#services" class="btn btn-custom btn-lg mt-3">Explore</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2><b>About TechEase</b></h2>
+                    <p>TechEase is a smart home solution startup designed to make your home secure, automated, and
+                        efficient.
+                        Our system connects lights, cameras, door locks, and appliances, enabling seamless home
+                        automation and added security.</p>
+                    <ul>
+                        <li>Protect your property from theft</li>
+                        <li>Save time through automation</li>
+                        <li>Leverage modern technology in homes and vehicles</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://www.faststreamtech.com/wp-content/uploads/2019/03/Smart-Home.jpg"
+                        class="img-fluid rounded" alt="Smart Home">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light">
+        <div class="container text-center">
+            <h2><b>Our Services</b></h2>
+            <p>Discover our range of smart home solutions</p>
+            <div class="row mt-5">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100 shadow-sm">
+                        <img src="https://www.larnitech.com/wp-content/uploads/2022/09/RGB-Top-Ceiling-Living-Room.png"
+                            class="card-img-top" alt="Lighting" height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Smart Lighting</h5>
+                            <p class="card-text">Control lights remotely, set schedules, and save energy with automated
+                                lighting systems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100 shadow-sm">
+                        <img src="https://i.pcmag.com/imagery/articles/04V1cjqRa2VfMLDHGSlVovC-8..v1646419995.jpg"
+                            class="card-img-top" alt="Security" height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Home Security</h5>
+                            <p class="card-text">Secure your home with cameras, smart locks, and real-time monitoring
+                                for peace of mind.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100 shadow-sm">
+                        <img src="https://smarthousemaster.com/wp-content/uploads/2021/06/ewdwe.jpg"
+                            class="card-img-top" alt="Climate Control" height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title">Climate Control</h5>
+                            <p class="card-text">Monitor and control temperature, humidity, and air quality remotely for
+                                comfort and efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container text-center">
+            <h2><b>Features</b></h2>
+            <p>Why choose TechEase for your smart home?</p>
+            <div class="row mt-5">
+                <div class="col-md-4 mb-4">
+                    <i class="bi bi-gear-fill fs-1 mb-3 text-primary"></i>
+                    <h5>Automation</h5>
+                    <p>Devices work together automatically, completing complex tasks effortlessly.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="bi bi-phone-fill fs-1 mb-3 text-primary"></i>
+                    <h5>Remote Access</h5>
+                    <p>Control your home from anywhere using your smartphone or tablet.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="bi bi-lightning-fill fs-1 mb-3 text-primary"></i>
+                    <h5>Energy Efficiency</h5>
+                    <p>Reduce energy consumption with smart scheduling and monitoring systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-light">
+        <div class="container text-center">
+            <h2><b>Testimonials</b></h2>
+            <p>What our clients say about TechEase</p>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="testimonial-card shadow-sm">
+                        <p>"TechEase made my home so much smarter and safer. I can control everything from my phone!"
+                        </p>
+                        <h6>- Ali Raza</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card shadow-sm">
+                        <p>"Amazing automation system! Lights, doors, and cameras all work seamlessly together."</p>
+                        <h6>- Sara Khan</h6>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card shadow-sm">
+                        <p>"Highly recommend TechEase for anyone wanting modern smart home solutions."</p>
+                        <h6>- Hassan Mahmood</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-center"><b>Contact Us</b></h2>
+            <p class="text-center">Get in touch to learn more about TechEase</p>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-custom"
+                            onclick="document.getElementById('confirmMsg').style.display='block'">
+                            Send Message
+                        </button>
+
+                    </form>
+                    <p id="confirmMsg" class="text-success mt-3" style="display:none;">
+                        Thank you! Your message has been sent successfully.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 TechEase. All Rights Reserved.</p>
+            <p>Follow us:
+                <a href="#" class="text-white text-decoration-none">Facebook</a> |
+                <a href="#" class="text-white text-decoration-none">Instagram</a> |
+                <a href="#" class="text-white text-decoration-none">LinkedIn</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+
+</html>
