@@ -16,6 +16,25 @@
             font-size: 30px;
         }
 
+        /* Navbar styling */
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-logo {
+            height: 170px;
+            /* Desktop size */
+            transition: height 0.3s;
+        }
+
+        @media (max-width: 768px) {
+            .navbar-logo {
+                height: 90px;
+                /* Mobile size */
+            }
+        }
+
         .navbar {
             height: 80px;
         }
@@ -89,7 +108,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="logo.png" alt="TechEase Logo" class="navbar-logo" height="170px">
+                <img src="logo.png" alt="TechEase Logo" class="navbar-logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
